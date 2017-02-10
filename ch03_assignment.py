@@ -3,6 +3,7 @@
 For this assignment, we will practice the use of imports to encrypt and decrypt messages.
 The functions are already contained in the files.  Your job is to use them to encrypt and decrypt strings.  Good luck
 '''
+print()
 import decode
 import encryption_key
 import encode
@@ -24,3 +25,7 @@ print(encoded_name)
 print()
 decoded_name = decode.decode(encryption_key.key, encoded_name)
 print(decoded_name)
+
+
+
+# Other
